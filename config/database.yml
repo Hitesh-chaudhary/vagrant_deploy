@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: demo_production
-  username: demo
+  username: root
   password: test
