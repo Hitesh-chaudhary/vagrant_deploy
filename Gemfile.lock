@@ -90,7 +90,6 @@ GEM
     net-ssh (4.2.0)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
-    pg (1.1.4)
     rack (1.6.11)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -177,7 +176,6 @@ DEPENDENCIES
   jquery-rails
   mysql2 (~> 0.3.13)
   nokogiri (= 1.7.0.1)
-  pg
   rails (= 4.2.10)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)

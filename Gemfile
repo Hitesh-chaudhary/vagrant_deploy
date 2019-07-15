@@ -8,7 +8,7 @@ group :development do
   gem 'mysql2','~>0.3.13'
 end
 group :development do
-  gem 'pg'
+  gem 'mysql2','~>0.3.13'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
