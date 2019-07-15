@@ -1,14 +1,14 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, "dmeo"
+set :application, "demo"
 set :repo_url, "https://github.com/Hitesh-chaudhary/vagrant_deploy"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/var/www/#{fetch[:application]}"
+set :deploy_to, "/var/www/#{fetch :application}"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
