@@ -2,13 +2,14 @@
 lock "~> 3.11.0"
 
 set :application, "demo"
+set :user, "deploy"
 set :repo_url, "https://github.com/Hitesh-chaudhary/vagrant_deploy"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/var/www/#{fetch :application}"
+set :deploy_to, "/home/#{fetch :user}/#{fetch :application}"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
